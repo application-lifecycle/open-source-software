@@ -33,6 +33,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/software.json README.md categories/
+          git add data/software.json README.md categories/ docs/
           git commit -m "chore: update OSS directory metadata and tables"
           git push

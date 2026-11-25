@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Best Open Source Software (OSS) - Curated Directory</title>
+  <meta name="description" content="A curated list of the best open-source software by category, platform, license and use case." />
+  <link rel="canonical" href="https://application-lifecycle.github.io/open-source-software/" />
+  <meta name="google-site-verification" content="HqgfQrEQATXaycciOAu8GzuJP8BSRHtaR1JrgBtnApU" />
+  <style>
+    :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --border: #d1d9e0; --accent: #0969da; --surface: #f6f8fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--fg); background: var(--bg); line-height: 1.55; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 32px 20px 64px; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 24px; }
+    h1 { margin: 0 0 10px; font-size: 2rem; }
+    h2 { margin: 36px 0 6px; font-size: 1.35rem; }
+    p { margin: 0 0 12px; }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    .actions { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .btn { display: inline-block; padding: 7px 14px; border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--fg); background: var(--surface); font-size: 0.9rem; }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    #filter { width: 100%; max-width: 420px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.95rem; }
+    .toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 28px; }
+    .toc a { padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; font-size: 0.85rem; color: var(--fg); text-decoration: none; background: var(--surface); }
+    .toc a:hover { border-color: var(--accent); color: var(--accent); }
+    .cat-summary { color: var(--muted); font-size: 0.95rem; margin-bottom: 12px; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { background: var(--surface); font-weight: 600; white-space: nowrap; }
+    a { color: var(--accent); }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Best Open Source Software (OSS)</h1>
+      <p>A curated directory of the best open-source software by category, platform, license, commercial alternative, and migration difficulty. Projects marked with <code>*</code> use an open-core model.</p>
+      <p class="meta">Catalog size: 115 open-source projects across 16 categories. Last automated sync: 2026-11-25.</p>
+      <div class="actions">
+        <input id="filter" type="search" placeholder="Filter by software, alternative (e.g. Photoshop, Salesforce), or license..." aria-label="Filter software directory" />
+        <a class="btn" href="https://github.com/application-lifecycle/open-source-software">View on GitHub</a>
+        <a class="btn" href="https://github.com/application-lifecycle/open-source-software/blob/main/migration-guides/salesforce-to-twenty.md">Salesforce to Twenty Guide</a>
+        <a class="btn" href="https://github.com/application-lifecycle/open-source-software/blob/main/migration-guides/photoshop-to-gimp.md">Photoshop to GIMP Guide</a>
+      </div>
+    </header>
+    <nav class="toc" aria-label="Categories">
+      <a href="#office">Office &amp; Productivity (8)</a> <a href="#design">Design &amp; Graphics (8)</a> <a href="#video-editing">Video Editing (7)</a> <a href="#audio-editing">Audio Editing (6)</a> <a href="#crm">CRM (7)</a> <a href="#project-management">Project Management (8)</a> <a href="#artificial-intelligence">Artificial Intelligence (8)</a> <a href="#developer-tools">Development (10)</a> <a href="#password-managers">Password Managers (6)</a> <a href="#analytics">Analytics (7)</a> <a href="#cloud-storage">Cloud Storage (6)</a> <a href="#automation">Automation (7)</a> <a href="#ecommerce">E-commerce (7)</a> <a href="#accounting">Accounting (6)</a> <a href="#databases">Databases (8)</a> <a href="#3d-modeling">3D Modeling (6)</a>
+    </nav>
+    <main>
+      <section id="office" class="cat-section">
+  <h2>Office &amp; Productivity</h2>
+  <p class="cat-summary">Document suites, note-taking apps, email clients, and collaborative workspaces.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="libreoffice microsoft office mpl-2.0 full desktop office suite (writer, calc, impress) office &amp; productivity"><td><a href="https://www.libreoffice.org/" target="_blank" rel="noopener">LibreOffice</a></td><td>Microsoft Office</td><td>Win, Mac, Linux</td><td>MPL-2.0</td><td>4.7k</td><td>Active</td><td>Low</td><td>Full desktop office suite (Writer, Calc, Impress)</td></tr>
+      <tr data-search="onlyoffice docs microsoft 365, google docs agpl-3.0 (community) collaborative docx, xlsx, and pptx editing office &amp; productivity"><td><a href="https://www.onlyoffice.com/" target="_blank" rel="noopener">ONLYOFFICE Docs</a></td><td>Microsoft 365, Google Docs</td><td>Web, Win, Mac, Linux</td><td>AGPL-3.0 (Community) *</td><td>7.2k</td><td>Active</td><td>Low</td><td>Collaborative DOCX, XLSX, and PPTX editing</td></tr>
+      <tr data-search="cryptpad google workspace agpl-3.0 end-to-end encrypted real-time collaboration office &amp; productivity"><td><a href="https://cryptpad.org/" target="_blank" rel="noopener">CryptPad</a></td><td>Google Workspace</td><td>Web</td><td>AGPL-3.0</td><td>8.1k</td><td>Active</td><td>Medium</td><td>End-to-end encrypted real-time collaboration</td></tr>
+      <tr data-search="collabora online microsoft 365 online mpl-2.0 browser-based libreoffice integrated with nextcloud office &amp; productivity"><td><a href="https://www.collaboraonline.com/" target="_blank" rel="noopener">Collabora Online</a></td><td>Microsoft 365 Online</td><td>Web</td><td>MPL-2.0 *</td><td>3.4k</td><td>Active</td><td>Medium</td><td>Browser-based LibreOffice integrated with Nextcloud</td></tr>
+      <tr data-search="logseq roam research, notion agpl-3.0 local-first markdown outliner and knowledge base office &amp; productivity"><td><a href="https://logseq.com/" target="_blank" rel="noopener">Logseq</a></td><td>Roam Research, Notion</td><td>Win, Mac, Linux, Mobile</td><td>AGPL-3.0</td><td>45.7k</td><td>Active</td><td>Medium</td><td>Local-first Markdown outliner and knowledge base</td></tr>
+      <tr data-search="joplin evernote agpl-3.0 encrypted markdown notebooks with multi-device sync office &amp; productivity"><td><a href="https://joplinapp.org/" target="_blank" rel="noopener">Joplin</a></td><td>Evernote</td><td>Win, Mac, Linux, Mobile</td><td>AGPL-3.0</td><td>57.4k</td><td>Active</td><td>Low</td><td>Encrypted Markdown notebooks with multi-device sync</td></tr>
+      <tr data-search="appflowy notion agpl-3.0 self-hosted docs, wikis, and lightweight databases office &amp; productivity"><td><a href="https://appflowy.io/" target="_blank" rel="noopener">AppFlowy</a></td><td>Notion</td><td>Win, Mac, Linux, Mobile</td><td>AGPL-3.0 *</td><td>79.5k</td><td>Active</td><td>Medium</td><td>Self-hosted docs, wikis, and lightweight databases</td></tr>
+      <tr data-search="thunderbird microsoft outlook mpl-2.0 desktop email, calendar, and rss client office &amp; productivity"><td><a href="https://www.thunderbird.net/" target="_blank" rel="noopener">Thunderbird</a></td><td>Microsoft Outlook</td><td>Win, Mac, Linux, Android</td><td>MPL-2.0</td><td>264</td><td>Active</td><td>Low</td><td>Desktop email, calendar, and RSS client</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="design" class="cat-section">
+  <h2>Design &amp; Graphics</h2>
+  <p class="cat-summary">Raster editors, vector graphics tools, UI prototyping, RAW photo editors, and desktop publishing.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="gimp adobe photoshop gpl-3.0 raster photo editing and image manipulation design &amp; graphics"><td><a href="https://www.gimp.org/" target="_blank" rel="noopener">GIMP</a></td><td>Adobe Photoshop</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>-</td><td>Active</td><td>Medium</td><td>Raster photo editing and image manipulation</td></tr>
+      <tr data-search="inkscape adobe illustrator gpl-2.0 svg vector illustration and logo design design &amp; graphics"><td><a href="https://inkscape.org/" target="_blank" rel="noopener">Inkscape</a></td><td>Adobe Illustrator</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>-</td><td>Active</td><td>Low</td><td>SVG vector illustration and logo design</td></tr>
+      <tr data-search="krita corel painter, clip studio paint gpl-3.0 digital painting, concept art, and 2d animation design &amp; graphics"><td><a href="https://krita.org/" target="_blank" rel="noopener">Krita</a></td><td>Corel Painter, Clip Studio Paint</td><td>Win, Mac, Linux, Android</td><td>GPL-3.0</td><td>10.8k</td><td>Active</td><td>Low</td><td>Digital painting, concept art, and 2D animation</td></tr>
+      <tr data-search="penpot figma mpl-2.0 collaborative ui/ux design with native css grid and flexbox design &amp; graphics"><td><a href="https://penpot.app/" target="_blank" rel="noopener">Penpot</a></td><td>Figma</td><td>Web</td><td>MPL-2.0</td><td>62.7k</td><td>Active</td><td>Medium</td><td>Collaborative UI/UX design with native CSS Grid and Flexbox</td></tr>
+      <tr data-search="darktable adobe lightroom gpl-3.0 non-destructive raw photography workflow design &amp; graphics"><td><a href="https://www.darktable.org/" target="_blank" rel="noopener">Darktable</a></td><td>Adobe Lightroom</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>13.5k</td><td>Active</td><td>Medium</td><td>Non-destructive RAW photography workflow</td></tr>
+      <tr data-search="scribus adobe indesign gpl-2.0 print page layout, cmyk brochures, and pdf publishing design &amp; graphics"><td><a href="https://www.scribus.net/" target="_blank" rel="noopener">Scribus</a></td><td>Adobe InDesign</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>659</td><td>Active</td><td>High</td><td>Print page layout, CMYK brochures, and PDF publishing</td></tr>
+      <tr data-search="rawtherapee adobe camera raw gpl-3.0 detailed raw color grading and lens correction design &amp; graphics"><td><a href="https://www.rawtherapee.com/" target="_blank" rel="noopener">RawTherapee</a></td><td>Adobe Camera Raw</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>4.3k</td><td>Active</td><td>Medium</td><td>Detailed RAW color grading and lens correction</td></tr>
+      <tr data-search="excalidraw miro, lucidchart mit hand-drawn style architecture diagrams and whiteboarding design &amp; graphics"><td><a href="https://excalidraw.com/" target="_blank" rel="noopener">Excalidraw</a></td><td>Miro, Lucidchart</td><td>Web</td><td>MIT *</td><td>136.3k</td><td>Active</td><td>Low</td><td>Hand-drawn style architecture diagrams and whiteboarding</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="video-editing" class="cat-section">
+  <h2>Video Editing</h2>
+  <p class="cat-summary">Non-linear video editors, screen recorders, streaming tools, and media transcoders.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="kdenlive adobe premiere pro gpl-3.0 multi-track video editing with proxy clips and keyframing video editing"><td><a href="https://kdenlive.org/" target="_blank" rel="noopener">Kdenlive</a></td><td>Adobe Premiere Pro</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>6.2k</td><td>Active</td><td>Medium</td><td>Multi-track video editing with proxy clips and keyframing</td></tr>
+      <tr data-search="shotcut imovie, filmora gpl-3.0 cross-platform timeline video editing without format import video editing"><td><a href="https://www.shotcut.org/" target="_blank" rel="noopener">Shotcut</a></td><td>iMovie, Filmora</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>15.8k</td><td>Active</td><td>Low</td><td>Cross-platform timeline video editing without format import</td></tr>
+      <tr data-search="openshot imovie, camtasia gpl-3.0 beginner-friendly cuts, titles, and simple transitions video editing"><td><a href="https://www.openshot.org/" target="_blank" rel="noopener">OpenShot</a></td><td>iMovie, Camtasia</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>6.8k</td><td>Active</td><td>Low</td><td>Beginner-friendly cuts, titles, and simple transitions</td></tr>
+      <tr data-search="losslesscut quicktime pro, premiere trim gpl-2.0 instant lossless video and audio trimming without re-encoding video editing"><td><a href="https://mifi.no/losslesscut/" target="_blank" rel="noopener">LosslessCut</a></td><td>QuickTime Pro, Premiere Trim</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>46.4k</td><td>Active</td><td>Low</td><td>Instant lossless video and audio trimming without re-encoding</td></tr>
+      <tr data-search="obs studio xsplit, wirecast gpl-2.0 live streaming, screen capture, and virtual cameras video editing"><td><a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio</a></td><td>XSplit, Wirecast</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>80.1k</td><td>Active</td><td>Low</td><td>Live streaming, screen capture, and virtual cameras</td></tr>
+      <tr data-search="handbrake adobe media encoder gpl-2.0 batch video compression and format conversion video editing"><td><a href="https://handbrake.fr/" target="_blank" rel="noopener">HandBrake</a></td><td>Adobe Media Encoder</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>25.1k</td><td>Active</td><td>Low</td><td>Batch video compression and format conversion</td></tr>
+      <tr data-search="ffmpeg commercial media transcoders lgpl-2.1 / gpl-2.0 scriptable cli audio and video processing pipelines video editing"><td><a href="https://ffmpeg.org/" target="_blank" rel="noopener">FFmpeg</a></td><td>Commercial media transcoders</td><td>Win, Mac, Linux</td><td>LGPL-2.1 / GPL-2.0</td><td>68.2k</td><td>Active</td><td>High</td><td>Scriptable CLI audio and video processing pipelines</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="audio-editing" class="cat-section">
+  <h2>Audio Editing</h2>
+  <p class="cat-summary">Digital audio workstations, waveform editors, music notation software, and DJ decks.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="audacity adobe audition gpl-3.0 podcast recording, noise reduction, and quick waveform edits audio editing"><td><a href="https://www.audacityteam.org/" target="_blank" rel="noopener">Audacity</a></td><td>Adobe Audition</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>19.2k</td><td>Active</td><td>Low</td><td>Podcast recording, noise reduction, and quick waveform edits</td></tr>
+      <tr data-search="ardour pro tools, logic pro gpl-2.0 multi-track studio recording, mixing, and mastering audio editing"><td><a href="https://ardour.org/" target="_blank" rel="noopener">Ardour</a></td><td>Pro Tools, Logic Pro</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>5.5k</td><td>Active</td><td>High</td><td>Multi-track studio recording, mixing, and mastering</td></tr>
+      <tr data-search="lmms fl studio gpl-2.0 beat making, synthesizer sequencing, and electronic music audio editing"><td><a href="https://lmms.io/" target="_blank" rel="noopener">LMMS</a></td><td>FL Studio</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>10.7k</td><td>Active</td><td>Medium</td><td>Beat making, synthesizer sequencing, and electronic music</td></tr>
+      <tr data-search="tenacity adobe audition gpl-2.0 privacy-focused audacity fork without telemetry audio editing"><td><a href="https://tenacityaudio.org/" target="_blank" rel="noopener">Tenacity</a></td><td>Adobe Audition</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>-</td><td>Active</td><td>Low</td><td>Privacy-focused Audacity fork without telemetry</td></tr>
+      <tr data-search="musescore sibelius, finale gpl-3.0 sheet music composition and musicxml engraving audio editing"><td><a href="https://musescore.org/" target="_blank" rel="noopener">MuseScore</a></td><td>Sibelius, Finale</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>15.5k</td><td>Active</td><td>Low</td><td>Sheet music composition and MusicXML engraving</td></tr>
+      <tr data-search="mixxx serato dj, traktor gpl-2.0 live dj mixing with midi controller support audio editing"><td><a href="https://mixxx.org/" target="_blank" rel="noopener">Mixxx</a></td><td>Serato DJ, Traktor</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>7.4k</td><td>Active</td><td>Low</td><td>Live DJ mixing with MIDI controller support</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="crm" class="cat-section">
+  <h2>CRM</h2>
+  <p class="cat-summary">Customer relationship management platforms for sales pipelines, support teams, and personal contacts.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="twenty salesforce, hubspot agpl-3.0 modern crm with custom objects, kanban views, and graphql api crm"><td><a href="https://twenty.com/" target="_blank" rel="noopener">Twenty</a></td><td>Salesforce, HubSpot</td><td>Web</td><td>AGPL-3.0 *</td><td>61.5k</td><td>Active</td><td>Medium</td><td>Modern CRM with custom objects, Kanban views, and GraphQL API</td></tr>
+      <tr data-search="espocrm salesforce, zoho crm agpl-3.0 lightweight b2b crm for sales, leads, and email sync crm"><td><a href="https://www.espocrm.com/" target="_blank" rel="noopener">EspoCRM</a></td><td>Salesforce, Zoho CRM</td><td>Web</td><td>AGPL-3.0 *</td><td>3.7k</td><td>Active</td><td>Medium</td><td>Lightweight B2B CRM for sales, leads, and email sync</td></tr>
+      <tr data-search="suitecrm salesforce enterprise agpl-3.0 enterprise-scale crm with quotes, contracts, and workflows crm"><td><a href="https://suitecrm.com/" target="_blank" rel="noopener">SuiteCRM</a></td><td>Salesforce Enterprise</td><td>Web</td><td>AGPL-3.0</td><td>5.9k</td><td>Active</td><td>High</td><td>Enterprise-scale CRM with quotes, contracts, and workflows</td></tr>
+      <tr data-search="monica clay, dex agpl-3.0 personal crm for tracking relationships, notes, and reminders crm"><td><a href="https://www.monicahq.com/" target="_blank" rel="noopener">Monica</a></td><td>Clay, Dex</td><td>Web</td><td>AGPL-3.0</td><td>25.8k</td><td>Active</td><td>Low</td><td>Personal CRM for tracking relationships, notes, and reminders</td></tr>
+      <tr data-search="frappe crm hubspot, pipedrive agpl-3.0 clean deal pipeline that connects natively to erpnext crm"><td><a href="https://frappe.io/crm" target="_blank" rel="noopener">Frappe CRM</a></td><td>HubSpot, Pipedrive</td><td>Web</td><td>AGPL-3.0</td><td>4.0k</td><td>Active</td><td>Medium</td><td>Clean deal pipeline that connects natively to ERPNext</td></tr>
+      <tr data-search="krayin crm pipedrive, zoho crm mit laravel-based crm for small and mid-sized teams crm"><td><a href="https://krayincrm.com/" target="_blank" rel="noopener">Krayin CRM</a></td><td>Pipedrive, Zoho CRM</td><td>Web</td><td>MIT</td><td>24.2k</td><td>Active</td><td>Medium</td><td>Laravel-based CRM for small and mid-sized teams</td></tr>
+      <tr data-search="dolibarr salesforce, netsuite gpl-3.0 combined crm and erp for smes and freelancers crm"><td><a href="https://www.dolibarr.org/" target="_blank" rel="noopener">Dolibarr</a></td><td>Salesforce, NetSuite</td><td>Web</td><td>GPL-3.0</td><td>7.9k</td><td>Active</td><td>High</td><td>Combined CRM and ERP for SMEs and freelancers</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="project-management" class="cat-section">
+  <h2>Project Management</h2>
+  <p class="cat-summary">Issue trackers, Kanban boards, sprint planners, and portfolio management tools.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="openproject microsoft project, jira gpl-3.0 (community) gantt charts, agile boards, and enterprise project portfolios project management"><td><a href="https://www.openproject.org/" target="_blank" rel="noopener">OpenProject</a></td><td>Microsoft Project, Jira</td><td>Web</td><td>GPL-3.0 (Community) *</td><td>17.7k</td><td>Active</td><td>Medium</td><td>Gantt charts, agile boards, and enterprise project portfolios</td></tr>
+      <tr data-search="taiga jira, trello mpl-2.0 scrum and kanban workflows for cross-functional product teams project management"><td><a href="https://taiga.io/" target="_blank" rel="noopener">Taiga</a></td><td>Jira, Trello</td><td>Web</td><td>MPL-2.0</td><td>858</td><td>Active</td><td>Low</td><td>Scrum and Kanban workflows for cross-functional product teams</td></tr>
+      <tr data-search="plane jira, linear agpl-3.0 (community) fast issue tracking, sprint cycles, and roadmap modules project management"><td><a href="https://plane.so/" target="_blank" rel="noopener">Plane</a></td><td>Jira, Linear</td><td>Web</td><td>AGPL-3.0 (Community) *</td><td>63.1k</td><td>Active</td><td>Low</td><td>Fast issue tracking, sprint cycles, and roadmap modules</td></tr>
+      <tr data-search="leantime asana, monday.com agpl-3.0 goal-oriented project planning for non-technical teams project management"><td><a href="https://leantime.io/" target="_blank" rel="noopener">Leantime</a></td><td>Asana, Monday.com</td><td>Web</td><td>AGPL-3.0 *</td><td>12.1k</td><td>Active</td><td>Low</td><td>Goal-oriented project planning for non-technical teams</td></tr>
+      <tr data-search="redmine jira gpl-2.0 long-running issue tracking with per-project wikis and time logs project management"><td><a href="https://www.redmine.org/" target="_blank" rel="noopener">Redmine</a></td><td>Jira</td><td>Web</td><td>GPL-2.0</td><td>6.1k</td><td>Active</td><td>Medium</td><td>Long-running issue tracking with per-project wikis and time logs</td></tr>
+      <tr data-search="vikunja todoist, trello agpl-3.0 self-hosted task lists, kanban boards, and gantt views project management"><td><a href="https://vikunja.io/" target="_blank" rel="noopener">Vikunja</a></td><td>Todoist, Trello</td><td>Web, Win, Mac, Linux, Mobile</td><td>AGPL-3.0</td><td>6.2k</td><td>Active</td><td>Low</td><td>Self-hosted task lists, Kanban boards, and Gantt views</td></tr>
+      <tr data-search="planka trello agpl-3.0 minimal real-time kanban boards with simple docker setup project management"><td><a href="https://planka.app/" target="_blank" rel="noopener">Planka</a></td><td>Trello</td><td>Web</td><td>AGPL-3.0</td><td>12.7k</td><td>Active</td><td>Low</td><td>Minimal real-time Kanban boards with simple Docker setup</td></tr>
+      <tr data-search="focalboard trello, notion boards mit self-hosted boards, tables, and personal project templates project management"><td><a href="https://github.com/mattermost-community/focalboard" target="_blank" rel="noopener">Focalboard</a></td><td>Trello, Notion Boards</td><td>Web, Win, Mac, Linux</td><td>MIT</td><td>26.6k</td><td>Maintained</td><td>Low</td><td>Self-hosted boards, tables, and personal project templates</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="artificial-intelligence" class="cat-section">
+  <h2>Artificial Intelligence</h2>
+  <p class="cat-summary">Local LLM runners, chat interfaces, inference servers, and image generation pipelines.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="ollama openai api, lm studio mit running open-weight llms locally via cli and http api artificial intelligence"><td><a href="https://ollama.com/" target="_blank" rel="noopener">Ollama</a></td><td>OpenAI API, LM Studio</td><td>Win, Mac, Linux</td><td>MIT</td><td>188.1k</td><td>Active</td><td>Low</td><td>Running open-weight LLMs locally via CLI and HTTP API</td></tr>
+      <tr data-search="open webui chatgpt web ui open webui license (bsd-3-clause based) self-hosted chat interface for ollama and openai-compatible apis artificial intelligence"><td><a href="https://openwebui.com/" target="_blank" rel="noopener">Open WebUI</a></td><td>ChatGPT Web UI</td><td>Web</td><td>Open WebUI License (BSD-3-Clause based) *</td><td>159.5k</td><td>Active</td><td>Low</td><td>Self-hosted chat interface for Ollama and OpenAI-compatible APIs</td></tr>
+      <tr data-search="llama.cpp proprietary llm runtimes mit low-overhead c/c++ inference for quantized gguf models artificial intelligence"><td><a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener">llama.cpp</a></td><td>Proprietary LLM runtimes</td><td>Win, Mac, Linux</td><td>MIT</td><td>136.2k</td><td>Active</td><td>Medium</td><td>Low-overhead C/C++ inference for quantized GGUF models</td></tr>
+      <tr data-search="vllm proprietary llm serving platforms apache-2.0 high-throughput gpu model serving with pagedattention artificial intelligence"><td><a href="https://vllm.ai/" target="_blank" rel="noopener">vLLM</a></td><td>Proprietary LLM serving platforms</td><td>Linux</td><td>Apache-2.0</td><td>97.6k</td><td>Active</td><td>Medium</td><td>High-throughput GPU model serving with PagedAttention</td></tr>
+      <tr data-search="comfyui midjourney, adobe firefly gpl-3.0 node-based image and video diffusion workflows artificial intelligence"><td><a href="https://www.comfy.org/" target="_blank" rel="noopener">ComfyUI</a></td><td>Midjourney, Adobe Firefly</td><td>Win, Mac, Linux, Web</td><td>GPL-3.0</td><td>148.6k</td><td>Active</td><td>Medium</td><td>Node-based image and video diffusion workflows</td></tr>
+      <tr data-search="localai openai api mit drop-in local rest api for text, audio, and image models artificial intelligence"><td><a href="https://localai.io/" target="_blank" rel="noopener">LocalAI</a></td><td>OpenAI API</td><td>Linux, Mac, Win</td><td>MIT</td><td>50.5k</td><td>Active</td><td>Low</td><td>Drop-in local REST API for text, audio, and image models</td></tr>
+      <tr data-search="anythingllm chatgpt team, custom gpts mit desktop and server rag workspaces over local documents artificial intelligence"><td><a href="https://anythingllm.com/" target="_blank" rel="noopener">AnythingLLM</a></td><td>ChatGPT Team, Custom GPTs</td><td>Win, Mac, Linux, Web</td><td>MIT</td><td>68.6k</td><td>Active</td><td>Low</td><td>Desktop and server RAG workspaces over local documents</td></tr>
+      <tr data-search="whisper.cpp commercial speech-to-text apis mit fast offline audio transcription on cpu or apple silicon artificial intelligence"><td><a href="https://github.com/ggml-org/whisper.cpp" target="_blank" rel="noopener">whisper.cpp</a></td><td>Commercial speech-to-text APIs</td><td>Win, Mac, Linux</td><td>MIT</td><td>55.5k</td><td>Active</td><td>Low</td><td>Fast offline audio transcription on CPU or Apple Silicon</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="developer-tools" class="cat-section">
+  <h2>Development</h2>
+  <p class="cat-summary">Code editors, IDEs, self-hosted Git platforms, API clients, and database GUIs.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="vscodium visual studio code mit vs code binary builds without microsoft telemetry development"><td><a href="https://vscodium.com/" target="_blank" rel="noopener">VSCodium</a></td><td>Visual Studio Code</td><td>Win, Mac, Linux</td><td>MIT</td><td>34.3k</td><td>Active</td><td>Low</td><td>VS Code binary builds without Microsoft telemetry</td></tr>
+      <tr data-search="eclipse ide intellij idea epl-2.0 enterprise java, c/c++, and embedded development development"><td><a href="https://www.eclipse.org/" target="_blank" rel="noopener">Eclipse IDE</a></td><td>IntelliJ IDEA</td><td>Win, Mac, Linux</td><td>EPL-2.0</td><td>173</td><td>Active</td><td>Medium</td><td>Enterprise Java, C/C++, and embedded development</td></tr>
+      <tr data-search="neovim sublime text, vs code apache-2.0 keyboard-driven terminal editor with lua plugins and lsp development"><td><a href="https://neovim.io/" target="_blank" rel="noopener">Neovim</a></td><td>Sublime Text, VS Code</td><td>Win, Mac, Linux</td><td>Apache-2.0</td><td>103.9k</td><td>Active</td><td>High</td><td>Keyboard-driven terminal editor with Lua plugins and LSP</td></tr>
+      <tr data-search="zed vs code, sublime text gpl-3.0 / apache-2.0 gpu-accelerated code editing written in rust development"><td><a href="https://zed.dev/" target="_blank" rel="noopener">Zed</a></td><td>VS Code, Sublime Text</td><td>Mac, Linux, Win</td><td>GPL-3.0 / Apache-2.0 *</td><td>95.7k</td><td>Active</td><td>Low</td><td>GPU-accelerated code editing written in Rust</td></tr>
+      <tr data-search="gitlab ce github enterprise, bitbucket mit (community edition) all-in-one self-hosted git, ci/cd, and container registry development"><td><a href="https://about.gitlab.com/" target="_blank" rel="noopener">GitLab CE</a></td><td>GitHub Enterprise, Bitbucket</td><td>Web</td><td>MIT (Community Edition) *</td><td>-</td><td>Active</td><td>Medium</td><td>All-in-one self-hosted Git, CI/CD, and container registry</td></tr>
+      <tr data-search="gitea github, bitbucket mit lightweight go-based git forge with built-in actions development"><td><a href="https://about.gitea.com/" target="_blank" rel="noopener">Gitea</a></td><td>GitHub, Bitbucket</td><td>Web</td><td>MIT *</td><td>59.3k</td><td>Active</td><td>Low</td><td>Lightweight Go-based Git forge with built-in Actions</td></tr>
+      <tr data-search="forgejo github, gitlab gpl-3.0 community-governed self-hosted git forge forked from gitea development"><td><a href="https://forgejo.org/" target="_blank" rel="noopener">Forgejo</a></td><td>GitHub, GitLab</td><td>Web</td><td>GPL-3.0</td><td>-</td><td>Active</td><td>Low</td><td>Community-governed self-hosted Git forge forked from Gitea</td></tr>
+      <tr data-search="bruno postman, insomnia mit offline-first api client storing collections in git development"><td><a href="https://www.usebruno.com/" target="_blank" rel="noopener">Bruno</a></td><td>Postman, Insomnia</td><td>Win, Mac, Linux</td><td>MIT *</td><td>48.6k</td><td>Active</td><td>Low</td><td>Offline-first API client storing collections in Git</td></tr>
+      <tr data-search="hoppscotch postman mit fast browser and desktop rest, graphql, and websocket testing development"><td><a href="https://hoppscotch.io/" target="_blank" rel="noopener">Hoppscotch</a></td><td>Postman</td><td>Web, Win, Mac, Linux</td><td>MIT *</td><td>81.0k</td><td>Active</td><td>Low</td><td>Fast browser and desktop REST, GraphQL, and WebSocket testing</td></tr>
+      <tr data-search="dbeaver community datagrip, navicat apache-2.0 (community) universal sql client supporting dozens of database engines development"><td><a href="https://dbeaver.io/" target="_blank" rel="noopener">DBeaver Community</a></td><td>DataGrip, Navicat</td><td>Win, Mac, Linux</td><td>Apache-2.0 (Community) *</td><td>52.5k</td><td>Active</td><td>Low</td><td>Universal SQL client supporting dozens of database engines</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="password-managers" class="cat-section">
+  <h2>Password Managers</h2>
+  <p class="cat-summary">Encrypted password vaults for individuals, families, and self-hosted engineering teams.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="keepassxc 1password, lastpass gpl-3.0 offline local kdbx vault with browser autofill and ssh agent password managers"><td><a href="https://keepassxc.org/" target="_blank" rel="noopener">KeePassXC</a></td><td>1Password, LastPass</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>30.1k</td><td>Active</td><td>Low</td><td>Offline local KDBX vault with browser autofill and SSH agent</td></tr>
+      <tr data-search="bitwarden 1password, dashlane gpl-3.0 / agpl-3.0 cross-device cloud or self-hosted password management password managers"><td><a href="https://bitwarden.com/" target="_blank" rel="noopener">Bitwarden</a></td><td>1Password, Dashlane</td><td>Web, Win, Mac, Linux, Mobile</td><td>GPL-3.0 / AGPL-3.0 *</td><td>14.3k</td><td>Active</td><td>Low</td><td>Cross-device cloud or self-hosted password management</td></tr>
+      <tr data-search="vaultwarden bitwarden server, 1password teams agpl-3.0 low-memory rust backend compatible with official bitwarden clients password managers"><td><a href="https://github.com/dani-garcia/vaultwarden" target="_blank" rel="noopener">Vaultwarden</a></td><td>Bitwarden Server, 1Password Teams</td><td>Web</td><td>AGPL-3.0</td><td>71.3k</td><td>Active</td><td>Low</td><td>Low-memory Rust backend compatible with official Bitwarden clients</td></tr>
+      <tr data-search="passbolt 1password business agpl-3.0 (community) openpgp-based team credential sharing and auditing password managers"><td><a href="https://www.passbolt.com/" target="_blank" rel="noopener">Passbolt</a></td><td>1Password Business</td><td>Web, Mobile</td><td>AGPL-3.0 (Community) *</td><td>6.2k</td><td>Active</td><td>Medium</td><td>OpenPGP-based team credential sharing and auditing</td></tr>
+      <tr data-search="pass 1password cli gpl-2.0 unix-style gpg-encrypted password files synced via git password managers"><td><a href="https://www.passwordstore.org/" target="_blank" rel="noopener">pass</a></td><td>1Password CLI</td><td>Linux, Mac</td><td>GPL-2.0</td><td>-</td><td>Active</td><td>Medium</td><td>Unix-style GPG-encrypted password files synced via Git</td></tr>
+      <tr data-search="keepassdx 1password mobile gpl-3.0 offline keepass vault manager on android with autofill password managers"><td><a href="https://www.keepassdx.com/" target="_blank" rel="noopener">KeePassDX</a></td><td>1Password Mobile</td><td>Android</td><td>GPL-3.0</td><td>7.7k</td><td>Active</td><td>Low</td><td>Offline KeePass vault manager on Android with autofill</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="analytics" class="cat-section">
+  <h2>Analytics</h2>
+  <p class="cat-summary">Privacy-focused web analytics, product analytics, and business intelligence dashboards.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="matomo google analytics gpl-3.0 full-featured self-hosted web analytics with 100% data ownership analytics"><td><a href="https://matomo.org/" target="_blank" rel="noopener">Matomo</a></td><td>Google Analytics</td><td>Web</td><td>GPL-3.0 *</td><td>22.1k</td><td>Active</td><td>Medium</td><td>Full-featured self-hosted web analytics with 100% data ownership</td></tr>
+      <tr data-search="metabase tableau, power bi agpl-3.0 (oss) self-service sql and visual bi dashboards for product teams analytics"><td><a href="https://www.metabase.com/" target="_blank" rel="noopener">Metabase</a></td><td>Tableau, Power BI</td><td>Web</td><td>AGPL-3.0 (OSS) *</td><td>50.5k</td><td>Active</td><td>Low</td><td>Self-service SQL and visual BI dashboards for product teams</td></tr>
+      <tr data-search="plausible analytics google analytics agpl-3.0 lightweight cookie-free web analytics under 1 kb script size analytics"><td><a href="https://plausible.io/" target="_blank" rel="noopener">Plausible Analytics</a></td><td>Google Analytics</td><td>Web</td><td>AGPL-3.0</td><td>29.9k</td><td>Active</td><td>Low</td><td>Lightweight cookie-free web analytics under 1 KB script size</td></tr>
+      <tr data-search="umami google analytics mit simple privacy-friendly site analytics running on postgresql analytics"><td><a href="https://umami.is/" target="_blank" rel="noopener">Umami</a></td><td>Google Analytics</td><td>Web</td><td>MIT</td><td>40.3k</td><td>Active</td><td>Low</td><td>Simple privacy-friendly site analytics running on PostgreSQL</td></tr>
+      <tr data-search="apache superset tableau, looker apache-2.0 enterprise data exploration and sql-based bi charts analytics"><td><a href="https://superset.apache.org/" target="_blank" rel="noopener">Apache Superset</a></td><td>Tableau, Looker</td><td>Web</td><td>Apache-2.0</td><td>75.7k</td><td>Active</td><td>High</td><td>Enterprise data exploration and SQL-based BI charts</td></tr>
+      <tr data-search="posthog mixpanel, amplitude mit (foss) product analytics, session replay, and feature flags analytics"><td><a href="https://posthog.com/" target="_blank" rel="noopener">PostHog</a></td><td>Mixpanel, Amplitude</td><td>Web</td><td>MIT (FOSS) *</td><td>41.1k</td><td>Active</td><td>Medium</td><td>Product analytics, session replay, and feature flags</td></tr>
+      <tr data-search="lightdash looker mit bi platform built directly on top of dbt models analytics"><td><a href="https://www.lightdash.com/" target="_blank" rel="noopener">Lightdash</a></td><td>Looker</td><td>Web</td><td>MIT *</td><td>6.3k</td><td>Active</td><td>Medium</td><td>BI platform built directly on top of dbt models</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="cloud-storage" class="cat-section">
+  <h2>Cloud Storage</h2>
+  <p class="cat-summary">Self-hosted file sync, photo libraries, and peer-to-peer folder synchronization.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="nextcloud google drive, dropbox agpl-3.0 self-hosted file sync, calendar, contacts, and groupware cloud storage"><td><a href="https://nextcloud.com/" target="_blank" rel="noopener">Nextcloud</a></td><td>Google Drive, Dropbox</td><td>Web, Win, Mac, Linux, Mobile</td><td>AGPL-3.0</td><td>37.6k</td><td>Active</td><td>Medium</td><td>Self-hosted file sync, calendar, contacts, and groupware</td></tr>
+      <tr data-search="syncthing dropbox, resilio sync mpl-2.0 continuous peer-to-peer folder sync without a central server cloud storage"><td><a href="https://syncthing.net/" target="_blank" rel="noopener">Syncthing</a></td><td>Dropbox, Resilio Sync</td><td>Win, Mac, Linux, Android</td><td>MPL-2.0</td><td>90.8k</td><td>Active</td><td>Low</td><td>Continuous peer-to-peer folder sync without a central server</td></tr>
+      <tr data-search="seafile dropbox, onedrive gpl-2.0 (community) high-speed encrypted file sync with virtual drive mounting cloud storage"><td><a href="https://www.seafile.com/" target="_blank" rel="noopener">Seafile</a></td><td>Dropbox, OneDrive</td><td>Web, Win, Mac, Linux, Mobile</td><td>GPL-2.0 (Community) *</td><td>15.5k</td><td>Active</td><td>Medium</td><td>High-speed encrypted file sync with virtual drive mounting</td></tr>
+      <tr data-search="owncloud infinite scale google drive, sharepoint apache-2.0 go-based enterprise file platform without a sql database cloud storage"><td><a href="https://owncloud.com/" target="_blank" rel="noopener">ownCloud Infinite Scale</a></td><td>Google Drive, SharePoint</td><td>Web, Win, Mac, Linux, Mobile</td><td>Apache-2.0 *</td><td>2.2k</td><td>Active</td><td>Medium</td><td>Go-based enterprise file platform without a SQL database</td></tr>
+      <tr data-search="immich google photos, icloud photos agpl-3.0 self-hosted photo and video backup with local ml search cloud storage"><td><a href="https://immich.app/" target="_blank" rel="noopener">Immich</a></td><td>Google Photos, iCloud Photos</td><td>Web, Mobile</td><td>AGPL-3.0</td><td>120.1k</td><td>Active</td><td>Low</td><td>Self-hosted photo and video backup with local ML search</td></tr>
+      <tr data-search="rclone commercial cloud sync bridges mit encrypted cli sync, backup, and mounting across 70+ cloud providers cloud storage"><td><a href="https://rclone.org/" target="_blank" rel="noopener">Rclone</a></td><td>Commercial cloud sync bridges</td><td>Win, Mac, Linux</td><td>MIT</td><td>61.3k</td><td>Active</td><td>Medium</td><td>Encrypted CLI sync, backup, and mounting across 70+ cloud providers</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="automation" class="cat-section">
+  <h2>Automation</h2>
+  <p class="cat-summary">Workflow engines, API connectors, IoT automation, and home control hubs.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="node-red zapier, make (iot) apache-2.0 flow-based programming for hardware devices, mqtt, and apis automation"><td><a href="https://nodered.org/" target="_blank" rel="noopener">Node-RED</a></td><td>Zapier, Make (IoT)</td><td>Web, Linux, Mac, Win</td><td>Apache-2.0</td><td>23.9k</td><td>Active</td><td>Medium</td><td>Flow-based programming for hardware devices, MQTT, and APIs</td></tr>
+      <tr data-search="activepieces zapier, make mit (community) no-code saas and ai workflow automation with typescript pieces automation"><td><a href="https://www.activepieces.com/" target="_blank" rel="noopener">Activepieces</a></td><td>Zapier, Make</td><td>Web</td><td>MIT (Community) *</td><td>25.7k</td><td>Active</td><td>Low</td><td>No-code SaaS and AI workflow automation with TypeScript pieces</td></tr>
+      <tr data-search="automatisch zapier agpl-3.0 self-hosted business workflow automation for gdpr compliance automation"><td><a href="https://automatisch.io/" target="_blank" rel="noopener">Automatisch</a></td><td>Zapier</td><td>Web</td><td>AGPL-3.0 *</td><td>14.0k</td><td>Maintained</td><td>Low</td><td>Self-hosted business workflow automation for GDPR compliance</td></tr>
+      <tr data-search="huginn ifttt, zapier mit autonomous web monitoring agents and scheduled alerts automation"><td><a href="https://github.com/huginn/huginn" target="_blank" rel="noopener">Huginn</a></td><td>IFTTT, Zapier</td><td>Web</td><td>MIT</td><td>50.6k</td><td>Active</td><td>Medium</td><td>Autonomous web monitoring agents and scheduled alerts</td></tr>
+      <tr data-search="windmill retool workflows, temporal agpl-3.0 (community) developer workflows turning python, ts, or bash scripts into apps automation"><td><a href="https://www.windmill.dev/" target="_blank" rel="noopener">Windmill</a></td><td>Retool Workflows, Temporal</td><td>Web</td><td>AGPL-3.0 (Community) *</td><td>18.7k</td><td>Active</td><td>Medium</td><td>Developer workflows turning Python, TS, or Bash scripts into apps</td></tr>
+      <tr data-search="kestra prefect cloud, airflow managed apache-2.0 (oss) declarative yaml orchestration for data and event workflows automation"><td><a href="https://kestra.io/" target="_blank" rel="noopener">Kestra</a></td><td>Prefect Cloud, Airflow Managed</td><td>Web</td><td>Apache-2.0 (OSS) *</td><td>30.4k</td><td>Active</td><td>Medium</td><td>Declarative YAML orchestration for data and event workflows</td></tr>
+      <tr data-search="home assistant apple home, google home apache-2.0 local smart-home automation with thousands of device integrations automation"><td><a href="https://www.home-assistant.io/" target="_blank" rel="noopener">Home Assistant</a></td><td>Apple Home, Google Home</td><td>Web, Linux, Mobile</td><td>Apache-2.0</td><td>92.5k</td><td>Active</td><td>Medium</td><td>Local smart-home automation with thousands of device integrations</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="ecommerce" class="cat-section">
+  <h2>E-commerce</h2>
+  <p class="cat-summary">Online storefronts, headless commerce engines, and self-hosted shopping carts.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="prestashop shopify, bigcommerce osl-3.0 complete php online store with multi-currency and eu tax support e-commerce"><td><a href="https://www.prestashop-project.org/" target="_blank" rel="noopener">PrestaShop</a></td><td>Shopify, BigCommerce</td><td>Web</td><td>OSL-3.0</td><td>9.3k</td><td>Active</td><td>Medium</td><td>Complete PHP online store with multi-currency and EU tax support</td></tr>
+      <tr data-search="woocommerce shopify gpl-3.0 e-commerce stores running inside wordpress e-commerce"><td><a href="https://woocommerce.com/" target="_blank" rel="noopener">WooCommerce</a></td><td>Shopify</td><td>Web</td><td>GPL-3.0</td><td>10.6k</td><td>Active</td><td>Low</td><td>E-commerce stores running inside WordPress</td></tr>
+      <tr data-search="medusa shopify plus, commercetools mit headless typescript commerce engine with modular apis e-commerce"><td><a href="https://medusajs.com/" target="_blank" rel="noopener">Medusa</a></td><td>Shopify Plus, Commercetools</td><td>Web</td><td>MIT</td><td>37.4k</td><td>Active</td><td>High</td><td>Headless TypeScript commerce engine with modular APIs</td></tr>
+      <tr data-search="saleor shopify plus bsd-3-clause graphql-first python headless commerce for multi-channel retail e-commerce"><td><a href="https://saleor.io/" target="_blank" rel="noopener">Saleor</a></td><td>Shopify Plus</td><td>Web</td><td>BSD-3-Clause</td><td>23.6k</td><td>Active</td><td>High</td><td>GraphQL-first Python headless commerce for multi-channel retail</td></tr>
+      <tr data-search="bagisto magento, shopify mit laravel e-commerce storefront with multi-vendor extensions e-commerce"><td><a href="https://bagisto.com/" target="_blank" rel="noopener">Bagisto</a></td><td>Magento, Shopify</td><td>Web</td><td>MIT</td><td>28.4k</td><td>Active</td><td>Medium</td><td>Laravel e-commerce storefront with multi-vendor extensions</td></tr>
+      <tr data-search="vendure shopify plus, commercetools mit extensible nestjs and graphql headless commerce framework e-commerce"><td><a href="https://www.vendure.io/" target="_blank" rel="noopener">Vendure</a></td><td>Shopify Plus, Commercetools</td><td>Web</td><td>MIT</td><td>8.6k</td><td>Active</td><td>High</td><td>Extensible NestJS and GraphQL headless commerce framework</td></tr>
+      <tr data-search="opencart shopify, bigcommerce gpl-3.0 lightweight php shopping cart for traditional shared hosting e-commerce"><td><a href="https://www.opencart.com/" target="_blank" rel="noopener">OpenCart</a></td><td>Shopify, BigCommerce</td><td>Web</td><td>GPL-3.0</td><td>8.2k</td><td>Active</td><td>Medium</td><td>Lightweight PHP shopping cart for traditional shared hosting</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="accounting" class="cat-section">
+  <h2>Accounting</h2>
+  <p class="cat-summary">Double-entry bookkeeping, small-business invoicing, ERP accounting, and personal finance.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="gnucash quickbooks desktop, quicken gpl-2.0 desktop double-entry accounting for individuals and small firms accounting"><td><a href="https://www.gnucash.org/" target="_blank" rel="noopener">GnuCash</a></td><td>QuickBooks Desktop, Quicken</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>4.4k</td><td>Active</td><td>Medium</td><td>Desktop double-entry accounting for individuals and small firms</td></tr>
+      <tr data-search="akaunting quickbooks online, xero gpl-3.0 web invoicing, expense tracking, and small-business cash flow accounting"><td><a href="https://akaunting.com/" target="_blank" rel="noopener">Akaunting</a></td><td>QuickBooks Online, Xero</td><td>Web</td><td>GPL-3.0 *</td><td>10.3k</td><td>Active</td><td>Medium</td><td>Web invoicing, expense tracking, and small-business cash flow</td></tr>
+      <tr data-search="firefly iii mint, ynab agpl-3.0 self-hosted personal finance, budgets, and bank rule automation accounting"><td><a href="https://www.firefly-iii.org/" target="_blank" rel="noopener">Firefly III</a></td><td>Mint, YNAB</td><td>Web</td><td>AGPL-3.0</td><td>25.3k</td><td>Active</td><td>Low</td><td>Self-hosted personal finance, budgets, and bank rule automation</td></tr>
+      <tr data-search="actual budget ynab mit local-first envelope budgeting with optional self-hosted sync accounting"><td><a href="https://actualbudget.org/" target="_blank" rel="noopener">Actual Budget</a></td><td>YNAB</td><td>Web, Win, Mac, Linux</td><td>MIT</td><td>30.5k</td><td>Active</td><td>Low</td><td>Local-first envelope budgeting with optional self-hosted sync</td></tr>
+      <tr data-search="erpnext netsuite, sap business one gpl-3.0 full erp accounting, inventory, payroll, and manufacturing accounting"><td><a href="https://erpnext.com/" target="_blank" rel="noopener">ERPNext</a></td><td>NetSuite, SAP Business One</td><td>Web</td><td>GPL-3.0</td><td>41.6k</td><td>Active</td><td>High</td><td>Full ERP accounting, inventory, payroll, and manufacturing</td></tr>
+      <tr data-search="hledger quicken, excel ledgers gpl-3.0 plain-text double-entry accounting stored in version control accounting"><td><a href="https://hledger.org/" target="_blank" rel="noopener">hledger</a></td><td>Quicken, Excel ledgers</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>4.8k</td><td>Active</td><td>High</td><td>Plain-text double-entry accounting stored in version control</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="databases" class="cat-section">
+  <h2>Databases</h2>
+  <p class="cat-summary">Relational databases, analytical engines, key-value stores, and embedded backends.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="postgresql oracle database, sql server postgresql production oltp, jsonb, geospatial, and vector workloads databases"><td><a href="https://www.postgresql.org/" target="_blank" rel="noopener">PostgreSQL</a></td><td>Oracle Database, SQL Server</td><td>Win, Mac, Linux</td><td>PostgreSQL</td><td>22.9k</td><td>Active</td><td>Medium</td><td>Production OLTP, JSONB, geospatial, and vector workloads</td></tr>
+      <tr data-search="mariadb mysql enterprise, sql server gpl-2.0 drop-in mysql-compatible relational database for web apps databases"><td><a href="https://mariadb.org/" target="_blank" rel="noopener">MariaDB</a></td><td>MySQL Enterprise, SQL Server</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>8.7k</td><td>Active</td><td>Low</td><td>Drop-in MySQL-compatible relational database for web apps</td></tr>
+      <tr data-search="sqlite embedded commercial databases public domain zero-configuration single-file sql database for apps and edge databases"><td><a href="https://www.sqlite.org/" target="_blank" rel="noopener">SQLite</a></td><td>Embedded commercial databases</td><td>Win, Mac, Linux, Mobile</td><td>Public Domain</td><td>11.1k</td><td>Active</td><td>Low</td><td>Zero-configuration single-file SQL database for apps and edge</td></tr>
+      <tr data-search="clickhouse snowflake, bigquery apache-2.0 real-time columnar analytics over billions of event rows databases"><td><a href="https://clickhouse.com/" target="_blank" rel="noopener">ClickHouse</a></td><td>Snowflake, BigQuery</td><td>Linux, Mac</td><td>Apache-2.0</td><td>51.1k</td><td>Active</td><td>High</td><td>Real-time columnar analytics over billions of event rows</td></tr>
+      <tr data-search="duckdb snowflake (local), databricks mit in-process olap sql over parquet, csv, and json files databases"><td><a href="https://duckdb.org/" target="_blank" rel="noopener">DuckDB</a></td><td>Snowflake (local), Databricks</td><td>Win, Mac, Linux</td><td>MIT</td><td>43.3k</td><td>Active</td><td>Low</td><td>In-process OLAP SQL over Parquet, CSV, and JSON files</td></tr>
+      <tr data-search="valkey redis enterprise bsd-3-clause high-performance in-memory cache, pub/sub, and message broker databases"><td><a href="https://valkey.io/" target="_blank" rel="noopener">Valkey</a></td><td>Redis Enterprise</td><td>Linux, Mac</td><td>BSD-3-Clause</td><td>27.9k</td><td>Active</td><td>Low</td><td>High-performance in-memory cache, pub/sub, and message broker</td></tr>
+      <tr data-search="meilisearch algolia mit typo-tolerant instant full-text and hybrid search engine databases"><td><a href="https://www.meilisearch.com/" target="_blank" rel="noopener">Meilisearch</a></td><td>Algolia</td><td>Linux, Mac, Win</td><td>MIT</td><td>60.0k</td><td>Active</td><td>Low</td><td>Typo-tolerant instant full-text and hybrid search engine</td></tr>
+      <tr data-search="supabase firebase apache-2.0 postgres-backed backend-as-a-service with auth, storage, and realtime databases"><td><a href="https://supabase.com/" target="_blank" rel="noopener">Supabase</a></td><td>Firebase</td><td>Web, Linux</td><td>Apache-2.0 *</td><td>115.5k</td><td>Active</td><td>Low</td><td>Postgres-backed Backend-as-a-Service with auth, storage, and realtime</td></tr>
+    </tbody>
+  </table></div>
+</section><section id="3d-modeling" class="cat-section">
+  <h2>3D Modeling</h2>
+  <p class="cat-summary">3D animation suites, parametric CAD tools, mesh processors, and game engines.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Software</th><th>Alternative to</th><th>Platform</th><th>License</th><th>Stars</th><th>Activity</th><th>Migration</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr data-search="blender autodesk maya, 3ds max gpl-3.0 3d modeling, sculpting, vfx, rendering, and animation 3d modeling"><td><a href="https://www.blender.org/" target="_blank" rel="noopener">Blender</a></td><td>Autodesk Maya, 3ds Max</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>22.5k</td><td>Active</td><td>Medium</td><td>3D modeling, sculpting, VFX, rendering, and animation</td></tr>
+      <tr data-search="freecad solidworks, fusion 360 lgpl-2.1 parametric 3d cad for mechanical engineering and 3d printing 3d modeling"><td><a href="https://www.freecad.org/" target="_blank" rel="noopener">FreeCAD</a></td><td>SolidWorks, Fusion 360</td><td>Win, Mac, Linux</td><td>LGPL-2.1</td><td>35.8k</td><td>Active</td><td>High</td><td>Parametric 3D CAD for mechanical engineering and 3D printing</td></tr>
+      <tr data-search="openscad fusion 360 (parametric) gpl-2.0 code-driven 3d solid cad models for programmable parts 3d modeling"><td><a href="https://openscad.org/" target="_blank" rel="noopener">OpenSCAD</a></td><td>Fusion 360 (parametric)</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>10.7k</td><td>Active</td><td>Medium</td><td>Code-driven 3D solid CAD models for programmable parts</td></tr>
+      <tr data-search="godot engine unity, unreal engine mit cross-platform 2d and 3d game development without royalties 3d modeling"><td><a href="https://godotengine.org/" target="_blank" rel="noopener">Godot Engine</a></td><td>Unity, Unreal Engine</td><td>Win, Mac, Linux, Web</td><td>MIT</td><td>120.8k</td><td>Active</td><td>Medium</td><td>Cross-platform 2D and 3D game development without royalties</td></tr>
+      <tr data-search="librecad autocad 2d gpl-2.0 2d technical drafting with native dxf file support 3d modeling"><td><a href="https://librecad.org/" target="_blank" rel="noopener">LibreCAD</a></td><td>AutoCAD 2D</td><td>Win, Mac, Linux</td><td>GPL-2.0</td><td>6.6k</td><td>Active</td><td>Low</td><td>2D technical drafting with native DXF file support</td></tr>
+      <tr data-search="meshlab geomagic wrap gpl-3.0 processing, cleaning, and repairing 3d scanned triangular meshes 3d modeling"><td><a href="https://www.meshlab.net/" target="_blank" rel="noopener">MeshLab</a></td><td>Geomagic Wrap</td><td>Win, Mac, Linux</td><td>GPL-3.0</td><td>5.9k</td><td>Active</td><td>Low</td><td>Processing, cleaning, and repairing 3D scanned triangular meshes</td></tr>
+    </tbody>
+  </table></div>
+</section>
+    </main>
+    <footer>
+      <p>Maintained in <a href="https://github.com/application-lifecycle/open-source-software">application-lifecycle/open-source-software</a> under the MIT License. Star counts, release dates, and license metadata sync weekly from GitHub.</p>
+    </footer>
+  </div>
+  <script>
+    const input = document.getElementById("filter");
+    const sections = Array.from(document.querySelectorAll(".cat-section"));
+    input.addEventListener("input", () => {
+      const q = input.value.trim().toLowerCase();
+      sections.forEach((sec) => {
+        let visible = 0;
+        sec.querySelectorAll("tbody tr").forEach((tr) => {
+          const match = !q || tr.dataset.search.includes(q);
+          tr.style.display = match ? "" : "none";
+          if (match) visible++;
+        });
+        sec.style.display = visible > 0 ? "" : "none";
+      });
+    });
+  </script>
+</body>
+</html>
